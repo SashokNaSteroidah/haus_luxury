@@ -7,10 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Haus_lux</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/itc-slider.css">
 </head>
-<body>
-<header class="header_change_main">
+<body class="admin_body">
+<header class="header_change_main_black">
     <ul>
         <li>
             <a href="main.php">
@@ -40,3 +39,20 @@
 </header>
 
 
+<main>
+
+    <div class="signin">
+        <h1>Вход</h1>
+        <label for="">
+            <input placeholder="Email" type="text">
+            <input placeholder="Пароль" type="password">
+            <input value="Войти" type="button">
+        </label>
+    </div>
+
+</main>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
