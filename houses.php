@@ -5,7 +5,12 @@
     <section style="margin-top: 150px" class="card">
         <div class="up_side_card">
             <article>
-                <img src="img/image%202.png" alt="">
+                <div class="slider">
+                    <img src="img/image%202.png" />
+                    <img src="img/1111%201.png" />
+                    <button class="prev">Назад</button>
+                    <button class="next">Вперед</button>
+                </div>
             </article>
             <article>
                 <h1>OPTI 62</h1>
@@ -48,7 +53,12 @@
     <section style="margin-top: 100px" class="card">
         <div class="up_side_card">
             <article>
-                <img src="img/image%202.png" alt="">
+                <div class="slider">
+                    <img src="img/image%202.png" />
+                    <img src="img/1111%201.png" />
+                    <button class="prev">Назад</button>
+                    <button class="next">Вперед</button>
+                </div>
             </article>
             <article>
                 <h1>OPTI 62</h1>
@@ -91,7 +101,12 @@
     <section style="margin-top: 100px" class="card">
         <div class="up_side_card">
             <article>
-                <img src="img/image%202.png" alt="">
+                <div class="slider">
+                    <img src="img/image%202.png" />
+                    <img src="img/1111%201.png" />
+                    <button class="prev">Назад</button>
+                    <button class="next">Вперед</button>
+                </div>
             </article>
             <article>
                 <h1>OPTI 62</h1>

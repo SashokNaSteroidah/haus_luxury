@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Haus_lux</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
 <header class="header_main">
@@ -73,23 +75,11 @@
     <section class="card">
         <div class="up_side_card">
             <article>
-                <div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true" data-interval="7000">
-                    <div class="itc-slider-wrapper">
-                        <div class="itc-slider-items">
-                            <div class="itc-slider-item">
-                                <img src="img/image%202.png" alt="">
-                            </div>
-                            <div class="itc-slider-item">
-                                <img src="img/image%202.png" alt="">
-                            </div>
-                            <div class="itc-slider-item">
-                                <img src="img/image%202.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Кнопки для перехода к предыдущему и следующему слайду -->
-                    <button class="itc-slider-btn itc-slider-btn-prev"></button>
-                    <button class="itc-slider-btn itc-slider-btn-next"></button>
+                <div class="slider">
+                    <img src="img/image%202.png" />
+                    <img src="img/1111%201.png" />
+                    <button class="prev">Назад</button>
+                    <button class="next">Вперед</button>
                 </div>
             </article>
             <article>
@@ -267,6 +257,6 @@
 
 </main>
 
-<script src="js/itc-slider.js"></script>
+<script src="js/main.js"></script>
 
 <?php require_once "footer.php"; ?>
