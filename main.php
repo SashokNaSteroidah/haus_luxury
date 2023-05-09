@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Haus_lux</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
 </head>
 <body>
 <header class="header_main">
@@ -74,14 +73,14 @@
 
     <section class="card">
         <div class="up_side_card">
-            <article>
-                <div class="slider">
-                    <img src="img/image%202.png" />
-                    <img src="img/1111%201.png" />
-                    <button class="prev">Назад</button>
-                    <button class="next">Вперед</button>
-                </div>
-            </article>
+            <swiper-container style="width: 220vw;">
+                <swiper-slide>
+                    <img style="width: 100%" src="img/image%202.png" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img style="width: 100%" src="img/1111%201.png" alt="">
+                </swiper-slide>
+            </swiper-container>
             <article>
                 <h1>OPTI 62</h1>
                 <div>
@@ -249,7 +248,7 @@
                 <input type="text" placeholder="Ваше имя">
                 <input type="text" placeholder="+7 (999) 999-99-99">
                 <input type="email" placeholder="Ваш email">
-                <input type="button" value="Оставить заявку">
+                <input type="submit" value="Оставить заявку">
             </label>
         </article>
         <img src="img/image%203.png" alt="">

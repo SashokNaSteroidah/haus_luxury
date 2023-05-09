@@ -1,26 +1,13 @@
-const images = document.querySelectorAll('.slider img');
-let currentIndex = 0;
-
-function showImage(index) {
-    images[currentIndex].classList.remove('active');
-    images[index].classList.add('active');
-    currentIndex = index;
+updateList = function() {
+    let input = document.getElementById('file');
+    let output = document.getElementById('fileList');
+    let children = "";
+    for (let i = 0; i < input.files.length; ++i) {
+        children +=  '<li>'+ '<svg width="38" height="50" viewBox="0 0 38 50" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+            '<path class="file1"\n' +
+            'd="M36.7048 14.7363L23.1404 1.04004C22.9207 0.820312 22.6814 0.634766 22.4226 0.478516C22.3542 0.439453 22.2859 0.400391 22.2126 0.366211C22.1687 0.341797 22.1199 0.322266 22.0759 0.302734C21.6365 0.107422 21.1531 0 20.6599 0H3.81421C1.87085 0 0.249756 1.57227 0.249756 3.51562V46.4844C0.249756 48.4277 1.87085 50 3.81421 50H34.2341C36.1775 50 37.7009 48.4277 37.7009 46.4844V17.2119C37.7009 16.2842 37.3591 15.3955 36.7048 14.7363ZM22.4666 5.39062L32.2712 15.2344H22.4666V5.39062ZM34.1853 46.4844H3.76538V3.51562H18.9509V15.2344C18.9509 17.1777 20.572 18.75 22.5154 18.75H34.1853V46.4844ZM11.0896 34.0088C11.0896 35.1904 10.7234 35.542 10.0203 35.542C9.58081 35.542 9.12183 35.2588 8.80933 34.6387L7.32495 35.7422C7.97925 36.8604 8.9021 37.4121 10.3181 37.4121C12.3494 37.4121 13.2869 35.9521 13.2869 34.1797V28.1738H11.0896V34.0088ZM18.4773 28.1738H15.3376V37.2559H17.4861V34.2285H18.5408C20.45 34.2285 22.1101 33.2715 22.1101 31.123C22.1101 28.8867 20.4744 28.1738 18.4773 28.1738ZM18.4382 32.5195H17.4861V29.9316H18.3748C19.4246 29.9316 20.0056 30.2344 20.0056 31.1475C20.0056 32.0312 19.4929 32.5195 18.4382 32.5195ZM27.3494 32.0801V33.8379H28.8142V35.3076C28.6189 35.4492 28.2771 35.5371 27.95 35.5371C26.2751 35.5371 25.4744 34.4922 25.4744 32.6953C25.4744 30.9326 26.4363 29.8926 27.7742 29.8926C28.5212 29.8926 28.9949 30.1953 29.4343 30.5957L30.5916 29.2139C29.9714 28.5889 29.0242 28.0322 27.7009 28.0322C25.2791 28.0322 23.2527 29.7559 23.2527 32.7686C23.2527 35.8301 25.2058 37.4121 27.7205 37.4121C28.9851 37.4121 30.1228 36.9141 30.7234 36.3086V32.0801H27.3494Z"\n' +
+            'fill="black"/>\n' +
+            '</svg>\n' + '<article>' + "<p>" + input.files.item(i).name + "</p>" + '<span class="remove-list" onclick="return this.parentNode.remove()">X</span>' + '</article>' + '</li>'
+    }
+    output.innerHTML = children;
 }
-
-document.onclick = event => {
-        if (event.target.classList.contains('prev')) {
-            let index = currentIndex - 1;
-            if (index < 0) {
-                index = images.length - 1;
-            }
-            showImage(index);
-        } else if (event.target.classList.contains('next')) {
-            let index = currentIndex + 1;
-            if (index >= images.length) {
-                index = 0;
-            }
-            showImage(index);
-        }
-    };
-
-showImage(currentIndex);
