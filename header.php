@@ -8,6 +8,7 @@
     <title>Haus_lux</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
 </head>
 <body>
 <header class="header_change_main">

@@ -505,6 +505,8 @@ footer
 .custom-file
   font-family: arial
   display: inline-block
+  label
+    padding: 10px 0
 
 .change_img
   border: 2px solid black
@@ -516,11 +518,14 @@ footer
   flex-wrap: wrap
 
 .custom-file-input
-  width: 100%
-  height: 100%
+  width: 250px
+  height: 100px
+  transform: translateY(-50px)
   cursor: pointer
   opacity: 0
   z-index: 100
+  z-index: 100
+  position: absolute
 
 .custom-file img
   display: inline-block
@@ -554,3 +559,13 @@ ul.file-list li
 
 .change_input
   margin-left: 20px
+
+swiper-container
+  border-radius: 30px
+  margin-right: 20px
+
+swiper-slide
+  img
+    width: 35vw
+    height: 40vh
+    object-fit: cover

@@ -75,10 +75,10 @@
         <div class="up_side_card">
             <swiper-container style="width: 220vw;">
                 <swiper-slide>
-                    <img style="width: 100%" src="img/image%202.png" alt="">
+                    <img src="img/image%202.png" alt="">
                 </swiper-slide>
                 <swiper-slide>
-                    <img style="width: 100%" src="img/1111%201.png" alt="">
+                    <img src="img/1111%201.png" alt="">
                 </swiper-slide>
             </swiper-container>
             <article>
