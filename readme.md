@@ -1,3 +1,3 @@
-## Page for computer shop
+## Page for selling houses
 
-Design - https://www.figma.com/file/6enlLs0Mhnxr0T40bcdSM1/WAYGOOD-(Copy)?type=design&node-id=2902%3A15&t=637gd8rkIKdInNky-1
+Design - https://www.figma.com/file/t5iLZ3176f0qGwbh7n2sFY/Untitled?type=design&node-id=102%3A1349&t=piZhlktAedLKVALj-1
