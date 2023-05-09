@@ -264,6 +264,18 @@ input::-webkit-inner-spin-button
   position: absolute
   opacity: 0
   visibility: hidden
+  p
+    text-overflow: ellipsis
+    width: 30px
+    overflow: hidden
+    white-space: nowrap
+
+.output1, .output2, .output3, .output4, .output5, .output6, .output7, .output8, .output9, .output10
+  text-overflow: ellipsis
+  width: 80px
+  text-align: center
+  overflow: hidden
+  white-space: nowrap
 
 .delete_img, .delete_img2, .delete_img3, .delete_img3, .delete_img4, .delete_img5, .delete_img6, .delete_img7, .delete_img8, .delete_img9, .delete_img10
   transform: translateX(-70px)
@@ -482,3 +494,58 @@ footer
   font-size: 12px
   padding: 10px 15px
   cursor: pointer
+
+.cross_delete
+  position: absolute
+  right: 18%
+  transform: translateY(-30px)
+
+.change_pin
+  position: absolute
+  right: 18%
+  transform: translateY(10px)
+
+.lid_main
+  margin: 200px 0
+  color: black
+  h1
+    font-size: 50px
+    text-align: center
+
+.card_lid_contain
+  display: flex
+  width: 80%
+  justify-content: space-between
+  margin: 100px auto 0
+
+.card_lid
+  border: black 3px solid
+  border-radius: 25px
+  display: flex
+  flex-direction: column
+  padding: 20px
+  box-sizing: border-box
+
+  article
+    display: flex
+    justify-content: space-between
+    label
+      input
+        &:not(:first-child)
+          margin: 10px 0 10px 15px
+
+  label
+    input
+      border-radius: 25px
+      margin: 10px 0
+      outline: none
+      border: 2px solid black
+      padding: 10px 15px
+
+.label_lid1
+  display: flex
+  justify-content: space-between
+
+.label_lid
+  display: flex
+  flex-direction: column

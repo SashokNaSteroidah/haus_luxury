@@ -36,7 +36,7 @@
                         </svg>
                         <span class="output1"></span>
                     </label>
-                    <svg display="none" class="delete_img"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img" xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -62,7 +62,7 @@
                         </svg>
                         <span class="output2"></span>
                     </label>
-                    <svg display="none" class="delete_img2"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img2" xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -88,7 +88,7 @@
                         </svg>
                         <span class="output3"></span>
                     </label>
-                    <svg display="none" class="delete_img3"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img3"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -114,7 +114,7 @@
                         </svg>
                         <span class="output4"></span>
                     </label>
-                    <svg display="none" class="delete_img4"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img4"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -140,7 +140,7 @@
                         </svg>
                         <span class="output5"></span>
                     </label>
-                    <svg display="none" class="delete_img5"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img5"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -166,7 +166,7 @@
                         </svg>
                         <span class="output6"></span>
                     </label>
-                    <svg display="none" class="delete_img6"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img6"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -192,7 +192,7 @@
                         </svg>
                         <span class="output7"></span>
                     </label>
-                    <svg display="none" class="delete_img7"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img7"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -218,7 +218,7 @@
                         </svg>
                         <span class="output8"></span>
                     </label>
-                    <svg display="none" class="delete_img8"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img8"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -244,7 +244,7 @@
                         </svg>
                         <span class="output9"></span>
                     </label>
-                    <svg display="none" class="delete_img9"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img9"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -270,7 +270,7 @@
                         </svg>
                         <span class="output10"></span>
                     </label>
-                    <svg display="none" class="delete_img10"  version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    <svg display="none" class="delete_img10"   xmlns="http://www.w3.org/2000/svg"
                          width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
                          preserveAspectRatio="xMidYMid meet">
                         <g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
@@ -292,11 +292,11 @@
             </div>
             <article class="change_input">
                 <label for="">
-                    <input type="text">
+                    <input placeholder="Название" type="text">
                     <h2>Цена домокомплекта:</h2>
-                    <input type="number">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <input placeholder="Цена" type="number">
+                    <textarea placeholder="Описание 1" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea placeholder="Описание 2" name="" id="" cols="30" rows="10"></textarea>
                 </label>
             </article>
         </div>
@@ -330,9 +330,20 @@
         </div>
     </section>
     <section style="margin-top: 100px" class="card">
+        <svg class="cross_delete" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.47484 24.4246C1.01039 23.9601 0.778704 23.4137 0.779796 22.7853C0.778704 22.1569 1.01039 21.6105 1.47484 21.1461L9.67117 12.9497L1.47484 4.75339C1.01039 4.28894 0.778157 3.74197 0.778158 3.11249C0.778157 2.4852 1.01039 1.93932 1.47484 1.47486C1.9393 1.0104 2.48573 0.777628 3.11411 0.776535C3.7425 0.777628 4.28892 1.0104 4.75338 1.47486L12.9497 9.67119L21.146 1.47486C21.6105 1.0104 22.1575 0.778175 22.7869 0.778175C23.4142 0.778175 23.9601 1.0104 24.4246 1.47486C24.889 1.93932 25.1218 2.48574 25.1229 3.11413C25.1218 3.74251 24.889 4.28894 24.4246 4.75339L16.2282 12.9497L24.4246 21.1461C24.889 21.6105 25.1213 22.1564 25.1213 22.7837C25.1213 23.4132 24.889 23.9601 24.4246 24.4246C23.9601 24.889 23.4137 25.1207 22.7853 25.1196C22.1569 25.1207 21.6105 24.889 21.146 24.4246L12.9497 16.2283L4.75338 24.4246C4.28892 24.889 3.74304 25.1213 3.11575 25.1213C2.48627 25.1213 1.9393 24.889 1.47484 24.4246Z" fill="black"/>
+        </svg>
+        <svg class="change_pin" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 26V19.9019L14.7063 5.18499L20.8 11.2831L6.09375 26H0ZM3.25 22.7477H4.7125L16.25 11.2831L14.7063 9.73827L3.25 21.2841V22.7477ZM22.6281 9.49435L16.5344 3.3962L19.4594 0.469088C19.7573 0.143854 20.1365 -0.0122588 20.5969 0.000750542C21.0573 0.014844 21.4365 0.170956 21.7344 0.469088L25.5531 4.29059C25.851 4.58873 26 4.96166 26 5.4094C26 5.85606 25.851 6.242 25.5531 6.56724L22.6281 9.49435Z" fill="black"/>
+        </svg>
         <div class="up_side_card">
             <article>
-                <img src="img/image%202.png" alt="">
+                <div class="slider">
+                    <img src="img/image%202.png" alt=""/>
+                    <img src="img/1111%201.png" alt=""/>
+                    <button class="prev">Назад</button>
+                    <button class="next">Вперед</button>
+                </div>
             </article>
             <article>
                 <h1>OPTI 62</h1>
@@ -373,9 +384,20 @@
         </div>
     </section>
     <section style="margin-top: 100px" class="card">
+        <svg class="cross_delete" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.47484 24.4246C1.01039 23.9601 0.778704 23.4137 0.779796 22.7853C0.778704 22.1569 1.01039 21.6105 1.47484 21.1461L9.67117 12.9497L1.47484 4.75339C1.01039 4.28894 0.778157 3.74197 0.778158 3.11249C0.778157 2.4852 1.01039 1.93932 1.47484 1.47486C1.9393 1.0104 2.48573 0.777628 3.11411 0.776535C3.7425 0.777628 4.28892 1.0104 4.75338 1.47486L12.9497 9.67119L21.146 1.47486C21.6105 1.0104 22.1575 0.778175 22.7869 0.778175C23.4142 0.778175 23.9601 1.0104 24.4246 1.47486C24.889 1.93932 25.1218 2.48574 25.1229 3.11413C25.1218 3.74251 24.889 4.28894 24.4246 4.75339L16.2282 12.9497L24.4246 21.1461C24.889 21.6105 25.1213 22.1564 25.1213 22.7837C25.1213 23.4132 24.889 23.9601 24.4246 24.4246C23.9601 24.889 23.4137 25.1207 22.7853 25.1196C22.1569 25.1207 21.6105 24.889 21.146 24.4246L12.9497 16.2283L4.75338 24.4246C4.28892 24.889 3.74304 25.1213 3.11575 25.1213C2.48627 25.1213 1.9393 24.889 1.47484 24.4246Z" fill="black"/>
+        </svg>
+        <svg class="change_pin" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 26V19.9019L14.7063 5.18499L20.8 11.2831L6.09375 26H0ZM3.25 22.7477H4.7125L16.25 11.2831L14.7063 9.73827L3.25 21.2841V22.7477ZM22.6281 9.49435L16.5344 3.3962L19.4594 0.469088C19.7573 0.143854 20.1365 -0.0122588 20.5969 0.000750542C21.0573 0.014844 21.4365 0.170956 21.7344 0.469088L25.5531 4.29059C25.851 4.58873 26 4.96166 26 5.4094C26 5.85606 25.851 6.242 25.5531 6.56724L22.6281 9.49435Z" fill="black"/>
+        </svg>
         <div class="up_side_card">
             <article>
-                <img src="img/image%202.png" alt="">
+                <div class="slider">
+                    <img src="img/image%202.png" alt=""/>
+                    <img src="img/1111%201.png" alt=""/>
+                    <button class="prev">Назад</button>
+                    <button class="next">Вперед</button>
+                </div>
             </article>
             <article>
                 <h1>OPTI 62</h1>
@@ -418,5 +440,6 @@
 
 </main>
 
+<script src="js/script_change.js"></script>
 
 <?php require_once "footer.php"; ?>
