@@ -125,6 +125,8 @@ header
   width: 20%
   height: 30px
   text-align: center
+  border: 3px solid black
+  outline: none
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button
@@ -243,6 +245,7 @@ input::-webkit-inner-spin-button
     border: 3px solid black
     border-radius: 50px
     padding: 10px 15px
+    white-space: nowrap
 
 .image_add
   border: 2px solid black
@@ -301,11 +304,11 @@ input::-webkit-inner-spin-button
     h3
       font-weight: 700
       font-size: 25px
-      font-family: "Segoe UI",Frutiger
+      font-family: 'Segoe UI', sans-serif
 
   h4
     padding-bottom: 40px
-    font-family: "Segoe UI",Frutiger
+    font-family: 'Segoe UI', sans-serif
     font-weight: 500
   p
     width: 80%
@@ -323,13 +326,13 @@ input::-webkit-inner-spin-button
     margin-top: 20px
 
     h1
-      font-family: "Segoe UI",Frutiger
+      font-family: 'Segoe UI', sans-serif
       font-weight: bold
       font-size: 20px
       padding-bottom: 10px
 
     h2
-      font-family: "Segoe UI",Frutiger
+      font-family: 'Segoe UI', sans-serif
       color: grey
 
   p
@@ -503,7 +506,6 @@ footer
   flex-direction: column
 
 .custom-file
-  font-family: arial
   display: inline-block
   label
     padding: 10px 0
@@ -524,7 +526,6 @@ footer
   cursor: pointer
   opacity: 0
   z-index: 100
-  z-index: 100
   position: absolute
 
 .custom-file img
@@ -533,7 +534,6 @@ footer
   margin-right: 5px
 
 ul.file-list
-  font-family: arial
   list-style: none
   padding: 0
   display: flex
@@ -569,3 +569,26 @@ swiper-slide
     width: 35vw
     height: 40vh
     object-fit: cover
+
+
+.swiper
+  width: 100%
+  height: 100%
+
+
+.swiper-slide
+  text-align: center
+  font-size: 18px
+  background: #fff
+  display: flex
+  justify-content: center
+  align-items: center
+
+.swiper-slide img
+  display: block
+  width: 100%
+  height: 100%
+  object-fit: cover
+
+.swiper-button-next:after, .swiper-button-prev:after
+  color: white

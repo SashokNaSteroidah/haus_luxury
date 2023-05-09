@@ -4,14 +4,19 @@
 
     <section style="margin-top: 150px" class="card">
         <div class="up_side_card">
-            <swiper-container style="width: 220vw;">
-                <swiper-slide>
-                    <img src="img/image%202.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="img/1111%201.png" alt="">
-                </swiper-slide>
-            </swiper-container>
+            <div style="border-radius: 25px;
+            margin-right: 20px; width: 220vw;" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
             <article>
                 <h1>OPTI 62</h1>
                 <div>
@@ -52,14 +57,19 @@
     </section>
     <section style="margin-top: 100px" class="card">
         <div class="up_side_card">
-            <swiper-container style="width: 220vw;">
-                <swiper-slide>
-                    <img src="img/image%202.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="img/1111%201.png" alt="">
-                </swiper-slide>
-            </swiper-container>
+            <div style="border-radius: 25px;
+            margin-right: 20px; width: 220vw;" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
             <article>
                 <h1>OPTI 62</h1>
                 <div>
@@ -100,14 +110,19 @@
     </section>
     <section style="margin-top: 100px" class="card">
         <div class="up_side_card">
-            <swiper-container style="width: 220vw;">
-                <swiper-slide>
-                    <img src="img/image%202.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="img/1111%201.png" alt="">
-                </swiper-slide>
-            </swiper-container>
+            <div style="border-radius: 25px;
+            margin-right: 20px; width: 220vw;" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
             <article>
                 <h1>OPTI 62</h1>
                 <div>
@@ -147,6 +162,28 @@
         </div>
     </section>
 
+    <swiper-container style="display: none; width: 220vw;">
+        <swiper-slide>
+            <img src="img/image%202.png" alt="">
+        </swiper-slide>
+        <swiper-slide>
+            <img src="img/1111%201.png" alt="">
+        </swiper-slide>
+    </swiper-container>
+    <article>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            let swiper = new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
 </main>
 
 <?php require_once "footer.php"; ?>

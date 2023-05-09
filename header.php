@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script src="js/jquery.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
 </head>
 <body>
 <header class="header_change_main">

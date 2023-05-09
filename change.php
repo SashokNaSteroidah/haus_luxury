@@ -12,8 +12,11 @@
                                onchange="updateList()">
                         <label class="custom-file-label" for="file">
                             Добавьте новое фото</label>
-                        <svg style="width: 10px; margin-left: 10px" height="14" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 10C2.16364 10 1.45455 9.73333 0.872727 9.2C0.290909 8.66667 0 8.01667 0 7.25V2C0 1.45 0.213636 0.979167 0.640909 0.5875C1.06818 0.195833 1.58182 0 2.18182 0C2.78182 0 3.29545 0.195833 3.72273 0.5875C4.15 0.979167 4.36364 1.45 4.36364 2V6.75C4.36364 7.1 4.23182 7.39583 3.96818 7.6375C3.70455 7.87917 3.38182 8 3 8C2.61818 8 2.29545 7.87917 2.03182 7.6375C1.76818 7.39583 1.63636 7.1 1.63636 6.75V2H2.45455V6.75C2.45455 6.89167 2.50691 7.01033 2.61164 7.106C2.716 7.202 2.84545 7.25 3 7.25C3.15455 7.25 3.28418 7.202 3.38891 7.106C3.49327 7.01033 3.54545 6.89167 3.54545 6.75V2C3.54545 1.65 3.41364 1.35417 3.15 1.1125C2.88636 0.870833 2.56364 0.75 2.18182 0.75C1.8 0.75 1.47727 0.870833 1.21364 1.1125C0.95 1.35417 0.818182 1.65 0.818182 2V7.25C0.818182 7.8 1.03182 8.27083 1.45909 8.6625C1.88636 9.05417 2.4 9.25 3 9.25C3.6 9.25 4.11364 9.05417 4.54091 8.6625C4.96818 8.27083 5.18182 7.8 5.18182 7.25V2H6V7.25C6 8.01667 5.70909 8.66667 5.12727 9.2C4.54545 9.73333 3.83636 10 3 10Z" fill="black"/>
+                        <svg style="width: 10px; margin-left: 10px" height="14" viewBox="0 0 6 10" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3 10C2.16364 10 1.45455 9.73333 0.872727 9.2C0.290909 8.66667 0 8.01667 0 7.25V2C0 1.45 0.213636 0.979167 0.640909 0.5875C1.06818 0.195833 1.58182 0 2.18182 0C2.78182 0 3.29545 0.195833 3.72273 0.5875C4.15 0.979167 4.36364 1.45 4.36364 2V6.75C4.36364 7.1 4.23182 7.39583 3.96818 7.6375C3.70455 7.87917 3.38182 8 3 8C2.61818 8 2.29545 7.87917 2.03182 7.6375C1.76818 7.39583 1.63636 7.1 1.63636 6.75V2H2.45455V6.75C2.45455 6.89167 2.50691 7.01033 2.61164 7.106C2.716 7.202 2.84545 7.25 3 7.25C3.15455 7.25 3.28418 7.202 3.38891 7.106C3.49327 7.01033 3.54545 6.89167 3.54545 6.75V2C3.54545 1.65 3.41364 1.35417 3.15 1.1125C2.88636 0.870833 2.56364 0.75 2.18182 0.75C1.8 0.75 1.47727 0.870833 1.21364 1.1125C0.95 1.35417 0.818182 1.65 0.818182 2V7.25C0.818182 7.8 1.03182 8.27083 1.45909 8.6625C1.88636 9.05417 2.4 9.25 3 9.25C3.6 9.25 4.11364 9.05417 4.54091 8.6625C4.96818 8.27083 5.18182 7.8 5.18182 7.25V2H6V7.25C6 8.01667 5.70909 8.66667 5.12727 9.2C4.54545 9.73333 3.83636 10 3 10Z"
+                                fill="black"/>
                         </svg>
                     </div>
                     <ul id="fileList" class="file-list"></ul>
@@ -55,9 +58,9 @@
                     </div>
                 </aside>
             </article>
-            <article>
+            <label>
                 <a href="">Оставить заявку</a>
-            </article>
+            </label>
         </div>
     </section>
     <section style="margin-top: 100px" class="card">
@@ -74,14 +77,19 @@
                 fill="black"/>
         </svg>
         <div class="up_side_card">
-            <swiper-container style="width: 220vw;">
-                <swiper-slide>
-                    <img src="img/image%202.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="img/1111%201.png" alt="">
-                </swiper-slide>
-            </swiper-container>
+            <div style="border-radius: 25px;
+            margin-right: 20px; width: 220vw;" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/1111%201.png" alt="">
+                    </swiper-slide>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
             <article>
                 <h1>OPTI 62</h1>
                 <div>
@@ -134,14 +142,19 @@
                 fill="black"/>
         </svg>
         <div class="up_side_card">
-            <swiper-container style="width: 220vw;">
-                <swiper-slide>
-                    <img src="img/image%202.png" alt="">
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="img/1111%201.png" alt="">
-                </swiper-slide>
-            </swiper-container>
+            <div style="border-radius: 25px;
+            margin-right: 20px; width: 220vw;" class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="img/image%202.png" alt="">
+                    </swiper-slide>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
             <article>
                 <h1>OPTI 62</h1>
                 <div>
@@ -180,6 +193,29 @@
             </article>
         </div>
     </section>
+
+    <swiper-container style="display: none; width: 220vw;">
+        <swiper-slide>
+            <img src="img/image%202.png" alt="">
+        </swiper-slide>
+        <swiper-slide>
+            <img src="img/1111%201.png" alt="">
+        </swiper-slide>
+    </swiper-container>
+    <article>
+
+        <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            let swiper = new Swiper(".mySwiper", {
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
 
 
 </main>
